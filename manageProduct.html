@@ -7,32 +7,19 @@
 <body>
 <h1>Add New Product</h1>
 <div >
-    <input type="text" placeholder="New Product">
-    <button>Add</button>
+    <input type="text" placeholder="New Product" id="newProduct">
+    <button onclick="createlProduct()">Add</button>
 </div>
 <h1>Display All Product</h1>
-<table border="">
-    <tr>
-        <th>Product Name</th>
-        <th></th>
-        <th></th>
-    </tr>
-    <tr>
-        <td>Iphone 11</td>
-        <td><button>Edit</button></td>
-        <td><button>Delete</button></td>
-    </tr>
-    <tr>
-        <td>Iphone 11 pro max</td>
-        <td><button>Edit</button></td>
-        <td><button>Delete</button></td>
-    </tr>
-    <tr>
-        <td>Iphone 12 pro max</td>
-        <td><button>Edit</button></td>
-        <td><button>Delete</button></td>
-    </tr>
-</table>
+<div id="content">
+    <table border="">
+        <tr>
+            <th>Product Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+</div>
 
 <script src="manageProduct.js"></script>
 </body>
