@@ -7,6 +7,7 @@ function deleteElement(array, index) {
     }
     for (let i = index; i < array.length - 1; i++) {
         newArray[i-1] = array[i];
+        // newArray[i] = array[i+1];
     }
     return newArray;
 }
