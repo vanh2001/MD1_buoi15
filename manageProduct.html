@@ -5,9 +5,16 @@
     <title>Ứng dụng quản lý sản phẩm</title>
 </head>
 <body>
+<input type="text" id="name">
+<button onclick="findByName()">Tìm Kiếm</button>
+
+<br>
 <h1>Add New Product</h1>
 <div >
-    <input type="text" placeholder="New Product" id="newProduct">
+    <input type="text" placeholder="Name Product" id="newProduct">
+    <input type="text" placeholder="Price Product" id="price">
+    <input type="text" placeholder="Number Product" id="number">
+    <input type="text" placeholder="Color Product" id="color">
     <button onclick="createProduct()">Add</button>
 </div>
 <h1>Display All Product</h1>
